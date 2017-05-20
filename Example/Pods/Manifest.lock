@@ -1,0 +1,16 @@
+PODS:
+  - iOSSideMainMenu (0.1.0)
+
+DEPENDENCIES:
+  - iOSSideMainMenu (from `../`)
+
+EXTERNAL SOURCES:
+  iOSSideMainMenu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iOSSideMainMenu: d6a233f2596fc37e74c7e42f80c59ddba956f635
+
+PODFILE CHECKSUM: 06fe33498a1b7deb6a82758142bd4f7ae51db638
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module Pods_iOSSideMainMenu_Tests {
+  umbrella header "Pods-iOSSideMainMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

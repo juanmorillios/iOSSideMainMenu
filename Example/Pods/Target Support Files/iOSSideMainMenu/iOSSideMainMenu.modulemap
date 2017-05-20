@@ -1,0 +1,6 @@
+framework module iOSSideMainMenu {
+  umbrella header "iOSSideMainMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
