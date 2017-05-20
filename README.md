@@ -8,8 +8,12 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+All you need to do is drop iOSSideMainMenu files into your project.
 
 ## Requirements
+* Swift3 or higher
+* Xcode 8 or higher
+* iOS 8.0 or higher
 
 ## Installation
 
@@ -19,9 +23,18 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "iOSSideMainMenu"
 ```
+## Demo
+Build and run the iOSSideMainMenu project in Xcode to see JMSideMainMenu in action.
+
+## Contributing
+1. Fork it!
+2. Create your feature branch: git checkout -b my-new-feature
+3. Commit your changes: git commit -am 'Add some feature'
+4. Push to the branch: git push origin my-new-feature
+5. Submit a pull request :D
 
 ## Author
-
+If you have some suggest please post me an hare:
 juanmorillios, juanmorillios@gmail.com
 
 ## License
