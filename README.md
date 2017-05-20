@@ -34,6 +34,9 @@ Build and run the iOSSideMainMenu project in Xcode to see JMSideMainMenu in acti
 5. Submit a pull request :D
 
 ## Author
+If you have some suggest please post me an [hare](https://github.com/juanmorillios/iOSSideMainMenu/issues/new)
+
+*  **Juan Morillo** - [@juanmorillios](www.juanmorillios.com) 
 If you have some suggest please post me an hare:
 juanmorillios, juanmorillios@gmail.com
 
