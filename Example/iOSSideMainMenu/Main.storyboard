@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1Sg-Oj-w8p">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--JMSideMainMenu-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SideMainMenuViewController" customModule="iOSSideMainMenu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1s-fo-1se">
+                                <rect key="frame" x="0.0" y="64" width="187" height="603"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3i0-ea-8fM">
+                                        <rect key="frame" x="61" y="29" width="64" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="Profile">
+                                            <color key="titleColor" red="0.98478190099999996" green="0.94542100689999997" blue="0.99118381079999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ubl-rb-Chu" kind="show" id="khn-go-A3C"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xto-SS-k7r">
+                                        <rect key="frame" x="26" y="94" width="135" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="Configuration">
+                                            <color key="titleColor" red="0.98478190099999996" green="0.94542100689999997" blue="0.99118381079999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="WCP-Jw-vZv" kind="show" id="0Ju-5b-wgb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3e-QY-C0n">
+                                        <rect key="frame" x="36" y="163" width="115" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="Notification">
+                                            <color key="titleColor" red="0.98478190099999996" green="0.94542100689999997" blue="0.99118381079999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="yQo-sd-eHp" kind="show" id="sbt-mU-i0V"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96470588239999999" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="187" id="zUg-hS-YJe"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGT-ur-Wdz">
+                                <rect key="frame" x="96" y="306" width="182" height="55"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="40"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29019607843137252" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zGT-ur-Wdz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A3t-ed-b0e"/>
+                            <constraint firstItem="M1s-fo-1se" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-197" id="AVN-ZO-aS0"/>
+                            <constraint firstItem="zGT-ur-Wdz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ky5-Sr-6sU"/>
+                            <constraint firstItem="M1s-fo-1se" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ivq-ze-qzI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M1s-fo-1se" secondAttribute="bottom" id="kP1-ru-7KH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="JMSideMainMenu" id="fNl-SL-jhj">
+                        <barButtonItem key="leftBarButtonItem" image="menumenu" id="RXZ-hO-vj0">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="openMainMenu:" destination="BYZ-38-t0r" id="ODH-lJ-h4L"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leftContraings" destination="AVN-ZO-aS0" id="VeO-uU-JYl"/>
+                        <outlet property="leftMainMenu" destination="M1s-fo-1se" id="3re-k6-4PZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1038" y="121"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="B3Y-Xg-9ZH">
+            <objects>
+                <viewController id="ubl-rb-Chu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N5b-gw-rw9"/>
+                        <viewControllerLayoutGuide type="bottom" id="2uL-fR-xrD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mEq-gU-SuA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="QEr-3D-8mL">
+                        <barButtonItem key="backBarButtonItem" title=" " id="zbl-28-M5T"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bV4-KK-o6k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2577" y="-215"/>
+        </scene>
+        <!--Configuration-->
+        <scene sceneID="hUo-Xx-1hi">
+            <objects>
+                <viewController id="WCP-Jw-vZv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O9M-Gf-h8m"/>
+                        <viewControllerLayoutGuide type="bottom" id="c4g-T0-JhW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gZy-Yw-VBE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.28627450980000002" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Configuration" id="8dz-Z0-XlD">
+                        <barButtonItem key="backBarButtonItem" title=" " id="B6e-BM-llJ"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DYt-Os-dJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2577" y="498"/>
+        </scene>
+        <!--Notification-->
+        <scene sceneID="xg3-V7-w0f">
+            <objects>
+                <viewController id="yQo-sd-eHp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fr4-Gv-hpe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hdt-TF-pCH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sdc-95-my9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Notification" id="VWQ-9E-cJb">
+                        <barButtonItem key="backBarButtonItem" title=" " id="JYg-Ka-9b7"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4BA-jy-XW8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3585" y="121"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JHJ-wb-hpf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Sg-Oj-w8p" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fIL-Ud-qeH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Cib-fk-oLn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aWu-jU-IdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="319" y="121"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menumenu" width="18" height="12"/>
+    </resources>
+</document>

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iOSSideMainMenu'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iOSSideMainMenu.'
+  s.summary          = 'A Main Menu that slides out from the side..'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A Main Menu that slides out from the side. Install library into project, never have to write this generic code of menu again!
                        DESC
 
   s.homepage         = 'https://github.com/juanmorillios/iOSSideMainMenu'
@@ -26,9 +26,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'juanmorillios' => 'juanmorillios@gmail.com' }
   s.source           = { :git => 'https://github.com/juanmorillios/iOSSideMainMenu.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/juanmorillios'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'iOSSideMainMenu/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
