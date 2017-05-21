@@ -58,7 +58,7 @@ $ pod install
 Open your project in Xcode from the .xcworkspace file (not the usual project file)
 ```
 $ open MyProject.xcworkspace
-
+```
 ## Demo
 Build and run the iOSSideMainMenu project in Xcode to see iOSSideMainMenu in action.
 
