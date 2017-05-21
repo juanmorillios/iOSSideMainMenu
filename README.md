@@ -10,6 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 All you need to do is drop iOSSideMainMenu files into your project.
 
+![Example](https://github.com/juanmorillios/iOSSideMainMenu/blob/master/iOSSideMainMenu/Assets/iOSSideMainMenu.gif)
+
+
 ## Requirements
 * Swift3 or higher
 * Xcode 8 or higher
