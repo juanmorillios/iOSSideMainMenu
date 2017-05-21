@@ -24,7 +24,7 @@ it, simply add the following line to your Podfile:
 pod "iOSSideMainMenu"
 ```
 ## Demo
-Build and run the iOSSideMainMenu project in Xcode to see JMSideMainMenu in action.
+Build and run the iOSSideMainMenu project in Xcode to see iOSSideMainMenu in action.
 
 ## Contributing
 1. Fork it!
