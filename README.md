@@ -26,6 +26,39 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "iOSSideMainMenu"
 ```
+### CocoaPods
+The recommended approach for installating `iOSSideMainMenu` is via the CocoaPods package manager, as it provides flexible dependency management and dead simple installation. For best results, it is recommended that you install via CocoaPods >= 0.28.0 using Git >= 1.8.0 installed via Homebrew.
+
+Install CocoaPods if not already available:
+```
+$ [sudo] gem install cocoapods
+$ pod setup
+```
+Change to the directory of your Xcode project:
+```
+$ cd /path/to/MyProject
+$ touch Podfile
+$ edit Podfile
+```
+Edit your Podfile and add `iOSSideMainMenu`:
+```
+platform :ios, '10.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+target 'MyProject' do
+  pod 'iOSSideMainMenu'
+
+end
+```
+Install into your Xcode project:
+```
+$ pod install
+```
+Open your project in Xcode from the .xcworkspace file (not the usual project file)
+```
+$ open MyProject.xcworkspace
+
 ## Demo
 Build and run the iOSSideMainMenu project in Xcode to see iOSSideMainMenu in action.
 
