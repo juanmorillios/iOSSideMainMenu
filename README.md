@@ -42,7 +42,7 @@ $ edit Podfile
 ```
 Edit your Podfile and add `iOSSideMainMenu`:
 ```
-platform :ios, '10.0'
+platform :ios, '8.0'
 source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
