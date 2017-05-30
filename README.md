@@ -37,7 +37,8 @@ $ pod setup
 Change to the directory of your Xcode project:
 ```
 $ cd /path/to/MyProject
-$ touch Podfile
+$ touch Podfile // To make a file
+$ pod init // Make a file called Podfile
 $ edit Podfile
 ```
 Edit your Podfile and add `iOSSideMainMenu`:
